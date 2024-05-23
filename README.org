@@ -1,0 +1,9 @@
+[[http://unmaintained.tech/badge.svg]]
+
+This is a quick&dirty test of using [[https://github.com/ondras/rot.js][rot.js]] with [[https://kenney.nl/assets/1-bit-pack][Kenney sprites]]. It's minimal:
+
+- there's no build step — no npm, no webpack, etc.
+- index.html loads the pre-built rot.js
+- the js loads the tile sheet into rot.js
+- the js loads the example tmx tile map and renders it
+- lots of stuff is hard coded
